@@ -2,4 +2,4 @@ Note: This project was made in approximately 8 hours by 2 people for Hack Prince
 
 This project constructs a newspaper from a year entered by the user.
 
-Future project would've included randomized data for different results. Future versions would also include a line parser that can parse any number of lnes instead of 3.
+Future project would've included randomized data for different results. Future versions would also include a line parser that can parse any number of lines instead of 3.
