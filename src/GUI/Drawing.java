@@ -53,7 +53,6 @@ public class Drawing extends JFrame {
 
                 rectangles.clear();
                 drawPaper(g);
-                //TODO: Add sorting for data
                 for (int i = 0; i < rectangles.size(); i++) {
                     switch (i) {
                         case 0:
@@ -122,7 +121,7 @@ public class Drawing extends JFrame {
         g.setFont(new Font("Arial", 0, 10));
         g.setColor(Color.BLACK);
         for (int i = 0; i < numberOfBullets; i++) {
-            //TODO: fix this bug, it'll go into the next box LOL
+            //TODO: Sometimes text will write on itself or not finish writing due to next topic.
             if (i+1 < text.size()) {
                 text.set(i, Sorting.cleanText(text.get(i)));
                 if (stringTooLong(text.get(i), rectangle, g)) {
